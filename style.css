@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu-bar {
+    border-radius: 25px;
+    height: fit-content;
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, .4);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    padding: 0 10px;
+    margin: 50px 0 0 0;
+    text-decoration: none;
+}
+.menu-bar li {
+    list-style: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 12px 16px;
+    margin: 0 8px;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.menu-bar li::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: 0.2s;
+    border-radius: 25px;
+}
+.menu-bar li:hover {
+    color: black;
+}
+.menu-bar li:hover::before {
+    background: linear-gradient(to bottom, #e8edec, #d2d1d3);
+    box-shadow: 0px 3px 20px 0px black;
+    transform: scale(1.2);
+}
+
+.parallax {
+    background: url("https://wallpaperaccess.com/full/2248063.jpg") center / cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background: url("https://1.bp.blogspot.com/-W8iZ6_0_Si4/X1EnWACuRNI/AAAAAAAAafw/cGPG1p8tL9oO16bhKd-HciXHV-lXGimoACLcBGAsYHQ/d/v2Beautiful-landscape-wallpaper-hd.png") center / cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 img {
+    position: absolute;
+    top: 2000px;
+    left: 660px;
+    width: 500px;
+    border: 20px solid white;
+}
+
+.centext{
+    text-align: center;
+    background-color: darkgrey;
+    padding-top: 50%;
+    color: white;
+    position: relative;
+}
+
+.centext img {
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    width: 500px;
+    border: 20px solid white;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    left: 640px;
+    top: 200px;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    left: 790px;
+    top: 450px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    left: 1200px;
+    top: 200px;
+    text-decoration: underline;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 2425px;
+    left: 800px;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: left; 
+    font-size: 45px;
+    position: absolute;
+    top: 350px;
+    left: 1000px;
+}
+
+p2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: center; 
+    font-size: 30px;
+    position: absolute;
+    top: 2600px;
+}
+
+.image {
+    float: left;margin-top: 8%;
+    width: 20%;
+    margin-left: 10%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
